@@ -1,0 +1,16 @@
+card reveal
+
+
+<div class="card">
+<div class='${item.imgurl} waves-effect waves-block waves-light'>
+  <img class="activator" src='${item.imgurl}'>
+</div>
+<div class='${item.description}'>
+  <span class='${item.description} activator grey-text text-darken-4>'${item.description}'<i class="material-icons right">Description</i></span>'
+  <p><a href="#">This is a link</a></p>
+</div>
+<div class='${item.description}'>
+  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+</div>
+</div>
